@@ -1,19 +1,19 @@
-//Select - seleciona uma quantidade de linhas de uma ou mais coluna.
-//Pode ser usado em outros bancos de dados (SQL Server, Postgres, Oracle, mySql)
+-- Select - seleciona uma quantidade de linhas de uma ou mais coluna.
+-- Pode ser usado em outros bancos de dados (SQL Server, Postgres, Oracle, mySql)
 
 SELECT nomedacoluna //Caso você queira mais uma coluna colocar “,nomedacoluna2”
 FROM nomedatabela;
 
-//Caso você queira selecionar todas as colunas é só colocar * no lugar do nome da coluna.
+-- Caso você queira selecionar todas as colunas é só colocar * no lugar do nome da coluna.
 
 SELECT *
 FROM tabela;
 
-//Colocar palavras chavesz em maiusculos por boas práticas 
+-- Colocar palavras chavesz em maiusculos por boas práticas 
 
-//Exercício
-//A eqipe de marketing precisa fazer uma pesquisa sobre nomes mais comuns de sues clientes e precisa do nome e sobrenome de todos os clientes
-//que estão cadastrados no sistema.
+-- Exercício
+-- A eqipe de marketing precisa fazer uma pesquisa sobre nomes mais comuns de sues clientes e precisa do nome e sobrenome de todos os clientes
+-- que estão cadastrados no sistema.
 
 SELECT firstname,lastname
 FROM tabela;

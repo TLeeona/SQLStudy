@@ -17,3 +17,35 @@ FROM tabela;
 
 SELECT firstname,lastname
 FROM tabela;
+
+
+-- Distinct é um “adicional” usado quando você quer fazer uma consulta mais com os dados duplicados ocultos.
+
+SELECT DISTINCT nomedacoluna
+FROM nomedatabela
+
+-- Where é usado quando se quer consultar apenas alguns dados
+
+SELECT nomedacoluna
+FROM nomedatabela
+WHERE condicao;
+
+-- As condições lógicas são:
+-- = 	igual
+-- > 	maior que
+-- <	menor que
+-- >= 	maior ou igual
+-- <= 	memor ou igual
+-- <> 	diferente de
+-- and 	e
+-- OR	ou
+
+--Ex1
+SELECT first_name
+FROM customers
+WHERE first_name = 'David';
+
+--Ex2
+SELECT first_name
+FROM customers
+WHERE first_name = 'David' or first_name = 'Robert';
